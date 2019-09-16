@@ -1,0 +1,39 @@
+header {
+  background-color: #333;
+  top: 0;
+  padding: 20px;
+}
+
+h1 {
+	font-size: 30px;
+  	color: #fff;
+  	text-align: center;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+.row {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <title>Assignment.DE.4.0</title>
+    <meta charset='utf-8'/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    
+<body>
+	<header>
+		<h1>Assignment.DE.4.0</h1>
+	</header>
+	
+    <div class="row">
+	<div class="column">
+     <script>
+    	//1-3
+        'use strict'
+        let PlacesToVisit = ['Miami ', 'San Fransisco ', 'New York ', 'Chicago '];
+        	document.write('<h2> Places I want to visit </h2>');
+
+        for (var i = 0; i < PlacesToVisit.length; i++) {
+        	document.write('<p>' + PlacesToVisit[i] + '</p>'); 
+        }
+	 </script>
+   	 </div>
+
+   	 <div class="column">
+     <script>
+        //4
+        PlacesToVisit.push('Jackson');
+        document.write('<h2> One more to the list </h2>')
+        document.write('<p>' + PlacesToVisit[i] + '</p>');
+
+        //5
+        function outputArray(theArray) {
+        for (var i = 0; i < PlacesToVisit.length; i++) {
+        		document.write('<p>' + PlacesToVisit[i] + '</p>');
+        	}
+        }
+	 </script>
+   	 </div>
+
+    <div class="column">
+     <script>
+        //6
+        document.write('<h2> outputArray </h2>');
+        outputArray(PlacesToVisit);
+     </script>
+ 	 </div>
+
+ 	 <div class="column">
+     <script>
+        //8
+        document.write('<h2> Remove first two cities </h2>');
+        PlacesToVisit.splice(0,2);
+
+        //9
+        outputArray(PlacesToVisit);
+     </script>
+ 	 </div>
+	
+	<div class="column">
+     <script>
+        //10
+        document.write('<h2> Alphabetically order </h2>');
+        PlacesToVisit.sort();
+
+        //11
+        outputArray(PlacesToVisit);
+     </script>
+	 </div>
+
+	<footer>
+	</footer>
+
+</body>
+    
+</html>
